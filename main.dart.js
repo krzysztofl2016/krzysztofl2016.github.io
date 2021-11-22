@@ -73724,7 +73724,7 @@ var $async$qD=P.x(function(b,c){if(b===1)return P.z(c,r)
 while(true)switch(s){case 0:p=window.location.hostname
 P.bt(p)
 if(p==="localhost")p="https://cmd.achem.pl"
-q=a==="rejestratory"?H.c(p)+"/sensor":H.c(p)+"/dashboard"
+q=a==="rejestratory"?"https://"+H.c(p)+"/sensor":"https://"+H.c(p)+"/dashboard"
 P.bt("urlFull "+q)
 s=5
 return P.v(T.akO(q),$async$qD)
