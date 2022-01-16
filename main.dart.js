@@ -73966,7 +73966,7 @@ while(!0){if(!(n<r.gn(p))){o=!1
 break}if("ADMIN"===J.aD(r.h(p,n),"role")){o=!0
 break}++n}P.bK("isSuperAdmin "+H.c(q))
 P.bK("isRoleAdmin "+o)
-return!0}return!1}}
+return q||o}return!1}}
 F.a85.prototype={
 $1(a){var s=J.l6(this.a,new F.a84(a))
 a.r=s.gK(s).grr()
