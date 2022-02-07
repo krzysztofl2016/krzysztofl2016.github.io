@@ -74943,7 +74943,8 @@ F.a9f.prototype={
 $1(a){var s,r=this.a
 if(r==="")r=!0
 else{s=a.db
-r=C.b.F(s==null?H.e(H.r("searchField")):s,r)}return r},
+if(s==null)s=H.e(H.r("searchField"))
+r=C.b.F(s.toLowerCase(),r.toLowerCase())}return r},
 $S:84}
 F.a9h.prototype={
 $2(a,b){return C.L5},
