@@ -25,7 +25,6 @@
 
   <title>web_sensodis</title>
   <link rel="manifest" href="manifest.json">
-
   <style>
     .loading {
       display: flex;
@@ -73,15 +72,14 @@
   </style>
 </head>
 <body>
+<div class="loading">
+  <div class="loader"></div>
+</div>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
-  <div class="loading">
-    <div class="loader"></div>
-  </div>
   <script>
-
-    var serviceWorkerVersion = '1703016484';
+    var serviceWorkerVersion = '1374822182';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
