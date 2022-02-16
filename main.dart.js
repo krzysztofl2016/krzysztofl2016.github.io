@@ -74131,7 +74131,7 @@ j(a){return this.b}}
 F.Du.prototype={
 aY(){var s=this
 s.tp()
-s.r=P.Ml(P.bu(0,0,10),new F.ak3(s))
+s.r=P.Ml(P.bu(0,0,60),new F.ak3(s))
 s.bj()},
 tp(){var s=0,r=P.A(t.z),q=this
 var $async$tp=P.w(function(a,b){if(a===1)return P.x(b,r)
