@@ -4719,13 +4719,13 @@ _.d=a
 _.e=b
 _.f=0
 _.r=null
+_.x="default"
 _.y=c
-_.z=""
-_.Q=d
-_.ch=e
-_.cx=f
-_.cy=!0
-_.db=""
+_.z=d
+_.Q=e
+_.ch=f
+_.cx=!0
+_.cy=""
 _.aU$=g
 _.a=null
 _.b=h
@@ -74420,11 +74420,11 @@ this.a_k(0)},
 L(a,b){var s,r,q,p=this,o=null
 if($.a9n.length===0)return B.UI(b,"Brak identyfikatora synoptyki")
 s=p.e
-s.z5(p.f)
-if(p.cy)s=T.ev(M.bt(C.Y,U.Xe(o),C.k,o,o,o,o,100,o,o,o,o,100),o,o)
+p.x=s.z5(p.f)
+if(p.cx)s=T.ev(M.bt(C.Y,U.Xe(o),C.k,o,o,o,o,100,o,o,o,o,100),o,o)
 else{r=t.p
 q=H.a([p.Jl()],r)
-if(O.aoM())q.push(T.wH(s.a2F(p.f,p.y,p.db),1))
+if(O.aoM())q.push(T.wH(s.a2F(p.f,p.y,p.cy),1))
 s=Q.a7B(!0,T.ew(H.a([T.wH(T.m8(q,C.ai,C.T,C.a6),8),s.afe()],r),C.ai,C.T,C.a6),C.af,!0)
 s=M.auz(o,s,O.aoM()?p.a4A():M.bt(o,o,C.k,o,o,o,o,o,o,o,o,o,o))}return s},
 Jl(){var s=this,r=null,q=s.e.c.length
@@ -74457,7 +74457,7 @@ a8y(){return new T.A1(new F.ak9(this),null)},
 FR(a){return this.ajE(a)},
 ajE(a){var s=0,r=P.B(t.z),q=this
 var $async$FR=P.w(function(b,c){if(b===1)return P.y(c,r)
-while(true)switch(s){case 0:q.db=a
+while(true)switch(s){case 0:q.cy=a
 q.ao(new F.akh())
 return P.z(null,r)}})
 return P.A($async$FR,r)}}
@@ -74465,7 +74465,7 @@ F.ake.prototype={
 $1(a){return this.a.yg()},
 $S:55}
 F.akf.prototype={
-$0(){this.a.cy=!1},
+$0(){this.a.cx=!1},
 $S:0}
 F.akd.prototype={
 $0(){},
@@ -74536,7 +74536,7 @@ default:return M.bt(r,r,C.k,r,r,r,r,r,r,r,r,r,r)}},
 $S:11}
 F.aka.prototype={
 $0(){var s=this.a
-s.db=""
+s.cy=""
 s=s.c
 s.toString
 return P.br(["",K.dK(s,!0).cP(0)],t.H)},
@@ -74571,7 +74571,7 @@ p=T.ew(H.a([L.bg("Nazwa widoku",s,s,s,s,s,s,s),M.bt(s,E.aHN(p.z5(q.f),new F.ak4(
 return E.vq(H.a([U.mm(C.Oy,new F.ak7(q,a),s),U.mm(C.dY,new F.ak8(a),s)],o),p,r)},
 $S:463}
 F.ak4.prototype={
-$1(a){this.a.z=a},
+$1(a){this.a.x=a},
 $S:45}
 F.ak5.prototype={
 $0(){var s=this.a,r=s.f
@@ -74587,7 +74587,7 @@ s=s.e.c
 if(s.length>0)s[r].r.gaP().ai9(this.b)},
 $S:0}
 F.ak7.prototype={
-$0(){var s,r,q=t.H,p=P.aS(q),o=this.a,n=o.z
+$0(){var s,r,q=t.H,p=P.aS(q),o=this.a,n=o.x
 if(n.length!==0){s=o.f
 r=o.e.c
 if(r.length>0)r[s].c=n
