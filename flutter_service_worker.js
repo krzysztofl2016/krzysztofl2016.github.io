@@ -4,10 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "9b79e7f2de8d5ef41ca52aaf503724cc",
-"index.html": "25779bea6b758226a1e7079c159f944d",
-"/": "25779bea6b758226a1e7079c159f944d",
-"main.dart.js": "d3a16440d6a600f3357a1c83f226227e",
-"flutter.js": "1cfe996e845b3a8a33f57607e8b09ee4",
+"index.html": "8dcec97dc20b4e961aabd2ad5d5a113e",
+"/": "8dcec97dc20b4e961aabd2ad5d5a113e",
+"main.dart.js": "43804fd87bed77135dd5d221869c9a4d",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
@@ -30,11 +29,7 @@ const RESOURCES = {
 "assets/packages/getwidget/icons/facebook.png": "293dc099a89c74ae34a028b1ecd2c1f0",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
 "assets/assets/images/logachem.png": "061d853d35c100fb4bef08bb19d0c972",
-"assets/assets/sounds/266455_infinitelifespan_notify.mp3": "08c760713b0fb28ccafc265e27b95a18",
-"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
-"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
-"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
-"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e"
+"assets/assets/sounds/266455_infinitelifespan_notify.mp3": "08c760713b0fb28ccafc265e27b95a18"
 };
 
 // The application shell files that are downloaded before a service worker can
